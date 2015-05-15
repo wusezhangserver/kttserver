@@ -1,0 +1,1037 @@
+[15-04-03 05:52:11][Thread-4][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 05:52:11][Thread-4][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 05:52:14][Thread-15][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 05:52:14][Thread-15][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 05:52:14][Thread-8][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 05:52:14][Thread-8][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 06:11:06][Thread-16][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 06:11:06][Thread-16][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:11:08][Thread-1][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 06:11:08][Thread-1][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:11:10][Thread-9][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 06:11:10][Thread-9][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:11:23][Thread-2][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 06:11:23][Thread-2][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 06:11:23][Thread-10][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 06:11:23][Thread-10][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 06:11:35][Thread-5][route.py:24] INFO: request: /morningnews/chinanews {'start': '8', 'limit': '8'}
+[15-04-03 06:11:35][Thread-5][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 06:12:35][Thread-6][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 06:12:35][Thread-6][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:12:37][Thread-11][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 06:12:37][Thread-11][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:12:39][Thread-12][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 06:12:39][Thread-12][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:14:17][Thread-3][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 06:14:17][Thread-3][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:14:19][Thread-7][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 06:14:19][Thread-7][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:14:20][Thread-13][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 06:14:20][Thread-13][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:14:31][Thread-14][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 06:14:31][Thread-14][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:15:00][Thread-4][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 06:15:00][Thread-4][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:19:58][Thread-15][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 06:19:58][Thread-15][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 06:20:02][Thread-8][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 06:20:02][Thread-8][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 06:20:04][Thread-16][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 06:20:04][Thread-16][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 06:20:13][Thread-1][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 06:20:13][Thread-1][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 06:20:16][Thread-9][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 06:22:17][Thread-2][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 06:22:17][Thread-2][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:23:07][Thread-10][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 06:23:07][Thread-10][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:23:11][Thread-5][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 06:23:11][Thread-5][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 06:23:11][Thread-5][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 06:44:39][Thread-6][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 06:44:39][Thread-6][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 06:44:40][Thread-11][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 06:44:40][Thread-11][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 06:44:40][Thread-11][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 06:44:42][Thread-12][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 06:44:42][Thread-12][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 06:44:42][Thread-12][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 06:53:24][Thread-3][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 06:53:24][Thread-3][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 06:53:26][Thread-7][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '30'}
+[15-04-03 06:53:26][Thread-7][route.py:27] ERROR: system error: None
+Traceback (most recent call last):
+  File "/home/www/kttserver/webapp/lib/util/route.py", line 25, in _call_wrap
+    ret = call(*params)
+  File "/home/www/kttserver/webapp/biz/datacenter.py", line 75, in margintrade_action
+    current_resource = self.margintrade_resource()
+TypeError: margintrade_resource() takes exactly 3 arguments (1 given)
+[15-04-03 06:53:30][Thread-13][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 06:53:32][Thread-14][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '30'}
+[15-04-03 06:53:32][Thread-14][route.py:27] ERROR: system error: None
+Traceback (most recent call last):
+  File "/home/www/kttserver/webapp/lib/util/route.py", line 25, in _call_wrap
+    ret = call(*params)
+  File "/home/www/kttserver/webapp/biz/datacenter.py", line 75, in margintrade_action
+    current_resource = self.margintrade_resource()
+TypeError: margintrade_resource() takes exactly 3 arguments (1 given)
+[15-04-03 06:53:33][Thread-4][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 06:53:34][Thread-15][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '30'}
+[15-04-03 06:53:34][Thread-15][route.py:27] ERROR: system error: None
+Traceback (most recent call last):
+  File "/home/www/kttserver/webapp/lib/util/route.py", line 25, in _call_wrap
+    ret = call(*params)
+  File "/home/www/kttserver/webapp/biz/datacenter.py", line 75, in margintrade_action
+    current_resource = self.margintrade_resource()
+TypeError: margintrade_resource() takes exactly 3 arguments (1 given)
+[15-04-03 06:54:02][Thread-8][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 06:54:02][Thread-8][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 06:54:04][Thread-16][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '30'}
+[15-04-03 06:54:04][Thread-16][route.py:27] ERROR: system error: None
+Traceback (most recent call last):
+  File "/home/www/kttserver/webapp/lib/util/route.py", line 25, in _call_wrap
+    ret = call(*params)
+  File "/home/www/kttserver/webapp/biz/datacenter.py", line 75, in margintrade_action
+    current_resource = self.margintrade_resource()
+TypeError: margintrade_resource() takes exactly 3 arguments (1 given)
+[15-04-03 06:54:12][Thread-1][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '30'}
+[15-04-03 06:54:12][Thread-1][route.py:27] ERROR: system error: None
+Traceback (most recent call last):
+  File "/home/www/kttserver/webapp/lib/util/route.py", line 25, in _call_wrap
+    ret = call(*params)
+  File "/home/www/kttserver/webapp/biz/datacenter.py", line 75, in margintrade_action
+    current_resource = self.margintrade_resource()
+TypeError: margintrade_resource() takes exactly 3 arguments (1 given)
+[15-04-03 06:54:42][Thread-9][route.py:24] INFO: request: /datacenter/margintrade {}
+[15-04-03 06:54:42][Thread-9][route.py:27] ERROR: system error: None
+Traceback (most recent call last):
+  File "/home/www/kttserver/webapp/lib/util/route.py", line 25, in _call_wrap
+    ret = call(*params)
+  File "/home/www/kttserver/webapp/biz/datacenter.py", line 75, in margintrade_action
+    current_resource = self.margintrade_resource()
+TypeError: margintrade_resource() takes exactly 3 arguments (1 given)
+[15-04-03 06:56:33][MainThread][serv.py:142] INFO: starting..., listen [8888], configurated by (/home/www/kttserver/webapp/etc/includes_dev.json)
+[15-04-03 06:56:42][Thread-1][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 06:56:42][Thread-1][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 06:56:59][Thread-1][route.py:24] INFO: request: /datacenter/margintrade {}
+[15-04-03 06:56:59][Thread-1][route.py:27] ERROR: system error: None
+Traceback (most recent call last):
+  File "/home/www/kttserver/webapp/lib/util/route.py", line 25, in _call_wrap
+    ret = call(*params)
+  File "/home/www/kttserver/webapp/biz/datacenter.py", line 75, in margintrade_action
+    current_resource = self.margintrade_resource()
+TypeError: margintrade_resource() takes exactly 3 arguments (1 given)
+[15-04-03 06:57:01][Thread-1][route.py:24] INFO: request: /datacenter/margintrade {}
+[15-04-03 06:57:01][Thread-1][route.py:27] ERROR: system error: None
+Traceback (most recent call last):
+  File "/home/www/kttserver/webapp/lib/util/route.py", line 25, in _call_wrap
+    ret = call(*params)
+  File "/home/www/kttserver/webapp/biz/datacenter.py", line 75, in margintrade_action
+    current_resource = self.margintrade_resource()
+TypeError: margintrade_resource() takes exactly 3 arguments (1 given)
+[15-04-03 07:05:16][MainThread][serv.py:142] INFO: starting..., listen [8888], configurated by (/home/www/kttserver/webapp/etc/includes_dev.json)
+[15-04-03 07:05:25][Thread-1][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:05:25][Thread-1][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:05:27][Thread-1][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '30'}
+[15-04-03 07:05:27][Thread-1][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:05:27][Thread-1][route.py:27] ERROR: system error: None
+Traceback (most recent call last):
+  File "/home/www/kttserver/webapp/lib/util/route.py", line 25, in _call_wrap
+    ret = call(*params)
+  File "/home/www/kttserver/webapp/biz/datacenter.py", line 91, in margintrade_action
+    return req.ok(currentdata)
+  File "serv.py", line 71, in ok
+    }, ensure_ascii=False, indent=2)
+  File "/usr/local/lib/python2.7/json/__init__.py", line 250, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "/usr/local/lib/python2.7/json/encoder.py", line 209, in encode
+    chunks = list(chunks)
+  File "/usr/local/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/local/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/local/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/local/lib/python2.7/json/encoder.py", line 332, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/local/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: datetime.datetime(2015, 4, 2, 0, 0) is not JSON serializable
+[15-04-03 07:07:37][MainThread][serv.py:142] INFO: starting..., listen [8888], configurated by (/home/www/kttserver/webapp/etc/includes_dev.json)
+[15-04-03 07:07:44][Thread-1][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '30'}
+[15-04-03 07:07:45][Thread-1][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:12:26][MainThread][serv.py:142] INFO: starting..., listen [8888], configurated by (/home/www/kttserver/webapp/etc/includes_dev.json)
+[15-04-03 07:13:13][MainThread][serv.py:142] INFO: starting..., listen [8888], configurated by (/home/www/kttserver/webapp/etc/includes_dev.json)
+[15-04-03 07:14:50][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:14:50][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:14:55][Thread-1][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 07:14:55][Thread-1][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 07:14:55][Thread-1][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 07:15:03][Thread-1][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:15:03][Thread-1][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:15:05][Thread-2][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '30'}
+[15-04-03 07:15:05][Thread-2][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:16:04][Thread-1][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:16:04][Thread-1][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:16:05][Thread-3][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '30'}
+[15-04-03 07:16:05][Thread-3][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:17:13][Thread-2][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '30'}
+[15-04-03 07:17:13][Thread-2][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:17:18][Thread-4][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '30'}
+[15-04-03 07:17:18][Thread-4][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:17:27][Thread-1][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:17:27][Thread-1][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:17:28][Thread-5][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:17:28][Thread-5][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:19:49][Thread-3][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:19:49][Thread-3][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:19:51][Thread-6][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:19:51][Thread-6][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:21:39][Thread-2][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:21:39][Thread-2][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:21:41][Thread-7][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:21:41][Thread-7][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:22:54][Thread-4][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 07:22:55][Thread-8][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 07:22:55][Thread-8][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 07:22:57][Thread-9][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 07:22:57][Thread-9][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 07:24:48][Thread-1][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:24:48][Thread-1][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:24:49][Thread-5][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 07:24:49][Thread-5][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 07:24:51][Thread-10][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 07:24:51][Thread-10][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 07:25:13][Thread-11][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 07:25:15][Thread-3][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:25:15][Thread-3][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:26:23][Thread-6][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:26:23][Thread-6][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:26:29][Thread-12][route.py:24] INFO: request: /datacenter/forexgold {'start': '0', 'limit': '20'}
+[15-04-03 07:26:29][Thread-12][datacenter.py:150] INFO: 国家黄金外汇储备查询...！
+[15-04-03 07:26:31][Thread-2][route.py:24] INFO: request: /datacenter/bulkcargotrans {'start': '0', 'limit': '20'}
+[15-04-03 07:26:31][Thread-2][datacenter.py:178] INFO: 波罗地海航运干货指数查询...！
+[15-04-03 07:26:36][Thread-13][route.py:24] INFO: request: /datacenter/pmi {'start': '0', 'limit': '20'}
+[15-04-03 07:26:42][Thread-7][route.py:24] INFO: request: /datacenter/socialpower {'start': '0', 'limit': '20'}
+[15-04-03 07:26:42][Thread-7][datacenter.py:353] INFO: 社会用电量查询..!
+[15-04-03 07:26:54][Thread-14][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:26:54][Thread-14][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:26:57][Thread-15][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 07:26:57][Thread-15][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:26:59][Thread-4][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:26:59][Thread-4][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:27:00][Thread-8][route.py:24] INFO: request: /datacenter/forexgold {'start': '0', 'limit': '20'}
+[15-04-03 07:27:00][Thread-8][datacenter.py:150] INFO: 国家黄金外汇储备查询...！
+[15-04-03 07:27:02][Thread-16][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:27:02][Thread-16][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:27:07][Thread-9][route.py:24] INFO: request: /datacenter/forexgold {'start': '0', 'limit': '20'}
+[15-04-03 07:27:07][Thread-9][datacenter.py:150] INFO: 国家黄金外汇储备查询...！
+[15-04-03 07:27:11][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:27:11][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:27:17][Thread-5][route.py:24] INFO: request: /datacenter/forexgold {'start': '0', 'limit': '20'}
+[15-04-03 07:27:17][Thread-5][datacenter.py:150] INFO: 国家黄金外汇储备查询...！
+[15-04-03 07:27:19][Thread-10][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:27:19][Thread-10][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:27:20][Thread-11][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:27:20][Thread-11][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:27:22][Thread-3][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:27:22][Thread-3][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:27:46][Thread-6][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 07:27:48][Thread-12][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:27:48][Thread-12][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:27:51][Thread-2][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 07:27:51][Thread-2][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 07:29:09][Thread-13][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:29:09][Thread-13][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:29:11][Thread-7][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 07:29:11][Thread-7][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 07:29:32][Thread-14][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:29:32][Thread-14][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:29:33][Thread-15][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 07:29:35][Thread-4][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 07:29:35][Thread-4][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 07:29:36][Thread-8][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 07:29:36][Thread-8][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 07:29:39][Thread-16][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:29:39][Thread-16][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:30:45][Thread-9][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:30:45][Thread-9][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:30:47][Thread-1][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 07:30:47][Thread-1][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:30:48][Thread-5][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:30:48][Thread-5][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:30:49][Thread-10][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 07:30:49][Thread-10][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 07:30:49][Thread-10][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 07:30:51][Thread-11][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 07:30:51][Thread-11][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 07:30:51][Thread-11][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 07:30:54][Thread-3][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:30:54][Thread-3][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:30:59][Thread-6][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:30:59][Thread-6][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:31:01][Thread-12][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:31:01][Thread-12][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:31:03][Thread-2][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:31:03][Thread-2][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:31:05][Thread-13][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 07:31:05][Thread-13][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 07:31:18][Thread-7][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:31:18][Thread-7][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:31:22][Thread-14][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:31:22][Thread-14][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:31:22][Thread-15][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 07:32:58][Thread-4][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:32:58][Thread-4][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:33:00][Thread-8][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:33:00][Thread-8][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:33:01][Thread-16][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:33:01][Thread-16][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:40:53][Thread-9][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:40:53][Thread-9][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:40:55][Thread-1][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:40:55][Thread-1][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:40:57][Thread-5][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:40:57][Thread-5][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:41:33][Thread-10][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 07:41:33][Thread-10][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 07:41:35][Thread-11][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 07:41:35][Thread-11][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 07:41:37][Thread-3][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 07:41:38][Thread-6][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:41:38][Thread-6][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 07:41:44][Thread-12][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:41:44][Thread-12][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:41:46][Thread-2][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 07:41:46][Thread-2][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:41:47][Thread-13][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:41:47][Thread-13][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:41:48][Thread-7][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 07:41:48][Thread-7][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 07:41:48][Thread-14][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 07:41:48][Thread-14][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 07:42:00][Thread-15][route.py:24] INFO: request: /morningnews/chinanews {'start': '8', 'limit': '8'}
+[15-04-03 07:42:00][Thread-15][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 07:42:02][Thread-4][route.py:24] INFO: request: /morningnews/chinanews {'start': '16', 'limit': '8'}
+[15-04-03 07:42:02][Thread-4][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 16,8
+[15-04-03 07:42:03][Thread-8][route.py:24] INFO: request: /morningnews/chinanews {'start': '8', 'limit': '8'}
+[15-04-03 07:42:03][Thread-8][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 07:42:12][Thread-16][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:42:12][Thread-16][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:42:20][Thread-9][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:42:20][Thread-9][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:42:28][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:42:28][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:44:21][Thread-5][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:44:21][Thread-5][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:44:23][Thread-10][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 07:44:23][Thread-10][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 07:44:23][Thread-11][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 07:44:23][Thread-11][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 07:44:25][Thread-3][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 07:44:25][Thread-3][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 07:44:26][Thread-6][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 07:44:26][Thread-6][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 07:44:28][Thread-12][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 07:44:28][Thread-12][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 08:09:14][Thread-2][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 08:09:14][Thread-2][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 08:09:17][Thread-13][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 08:09:17][Thread-13][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 08:09:17][Thread-7][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 08:09:17][Thread-7][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 08:10:30][Thread-14][route.py:24] INFO: request: /morningnews/stocknews {'start': '8', 'limit': '8'}
+[15-04-03 08:10:30][Thread-14][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 08:10:31][Thread-15][route.py:24] INFO: request: /morningnews/stocknews {'start': '16', 'limit': '8'}
+[15-04-03 08:10:31][Thread-15][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 16,8
+[15-04-03 08:10:34][Thread-4][route.py:24] INFO: request: /morningnews/stocknews {'start': '24', 'limit': '8'}
+[15-04-03 08:10:34][Thread-4][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 24,8
+[15-04-03 08:10:36][Thread-8][route.py:24] INFO: request: /morningnews/stocknews {'start': '16', 'limit': '8'}
+[15-04-03 08:10:36][Thread-8][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 16,8
+[15-04-03 08:10:37][Thread-16][route.py:24] INFO: request: /morningnews/stocknews {'start': '8', 'limit': '8'}
+[15-04-03 08:10:37][Thread-16][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 08:12:06][Thread-9][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 08:12:06][Thread-9][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 08:12:08][Thread-1][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 08:12:08][Thread-1][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 08:12:10][Thread-5][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 08:12:10][Thread-5][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 08:12:14][Thread-10][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 08:12:14][Thread-10][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 08:12:16][Thread-11][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 08:12:16][Thread-11][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 08:12:18][Thread-3][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 08:12:18][Thread-3][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 08:12:33][Thread-6][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 08:12:34][Thread-12][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 08:12:34][Thread-12][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 08:12:36][Thread-2][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 08:12:36][Thread-2][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 08:12:40][Thread-13][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 08:12:40][Thread-13][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:05:05][Thread-7][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:05:05][Thread-7][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:05:07][Thread-14][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 10:05:07][Thread-14][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:05:08][Thread-15][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 10:05:08][Thread-4][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 10:05:08][Thread-4][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:05:08][Thread-15][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:05:11][Thread-8][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:05:11][Thread-8][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:06:59][Thread-16][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:06:59][Thread-16][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:07:36][Thread-9][route.py:24] INFO: request: /datacenter/forexgold {'start': '0', 'limit': '20'}
+[15-04-03 10:07:36][Thread-9][datacenter.py:150] INFO: 国家黄金外汇储备查询...！
+[15-04-03 10:07:39][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:07:39][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:07:41][Thread-5][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:07:41][Thread-5][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:07:43][Thread-10][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:07:43][Thread-10][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:08:04][Thread-11][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:08:04][Thread-11][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:08:06][Thread-3][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 10:08:06][Thread-3][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:08:06][Thread-6][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 10:08:06][Thread-6][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:08:19][Thread-12][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:08:19][Thread-12][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:08:32][Thread-2][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:08:32][Thread-2][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:08:34][Thread-13][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:08:34][Thread-13][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:08:37][Thread-7][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:08:37][Thread-7][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:08:45][Thread-14][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 10:08:47][Thread-15][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 10:08:47][Thread-15][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 10:08:48][Thread-4][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 10:08:48][Thread-4][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 10:08:50][Thread-8][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 10:08:50][Thread-8][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 10:08:52][Thread-16][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:08:52][Thread-16][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:09:22][Thread-9][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:09:22][Thread-9][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:09:23][Thread-1][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:09:23][Thread-1][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:09:26][Thread-5][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:09:26][Thread-5][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:09:37][Thread-10][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 10:09:45][Thread-11][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 10:09:45][Thread-11][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 10:09:50][Thread-3][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 10:09:50][Thread-3][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 10:09:52][Thread-6][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 10:09:54][Thread-12][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 10:09:54][Thread-12][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 10:09:54][Thread-2][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:09:54][Thread-2][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:10:02][Thread-13][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:10:02][Thread-13][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:10:11][Thread-7][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:10:11][Thread-7][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:10:41][Thread-14][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:10:41][Thread-14][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:10:43][Thread-15][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:10:43][Thread-15][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:10:55][Thread-4][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:10:55][Thread-4][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:11:00][Thread-8][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 10:11:26][Thread-16][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:11:26][Thread-16][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:11:27][Thread-9][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:11:27][Thread-9][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:11:27][Thread-1][route.py:24] INFO: request: /morningnews/metalmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:11:27][Thread-1][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'METAL'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:11:35][Thread-5][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 10:11:35][Thread-5][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 10:11:45][Thread-10][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:11:45][Thread-10][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:11:48][Thread-11][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 10:11:48][Thread-11][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 10:11:54][Thread-3][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 10:11:54][Thread-3][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 10:12:00][Thread-6][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 10:12:00][Thread-12][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 10:12:00][Thread-12][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:12:00][Thread-6][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:12:11][Thread-2][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 10:12:11][Thread-2][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 10:12:14][Thread-13][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:12:14][Thread-13][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:12:14][Thread-7][route.py:24] INFO: request: /morningnews/chinanews {'start': '8', 'limit': '8'}
+[15-04-03 10:12:14][Thread-7][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 10:12:18][Thread-14][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 10:12:18][Thread-14][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:12:21][Thread-15][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 10:12:21][Thread-15][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 10:12:22][Thread-4][route.py:24] INFO: request: /morningnews/stocknews {'start': '8', 'limit': '8'}
+[15-04-03 10:12:22][Thread-4][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 10:12:23][Thread-8][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 10:12:23][Thread-8][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 10:12:23][Thread-16][route.py:24] INFO: request: /morningnews/stocknews {'start': '16', 'limit': '8'}
+[15-04-03 10:12:23][Thread-16][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 16,8
+[15-04-03 10:12:24][Thread-9][route.py:24] INFO: request: /morningnews/stocknews {'start': '24', 'limit': '8'}
+[15-04-03 10:12:24][Thread-9][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 24,8
+[15-04-03 10:12:25][Thread-1][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 10:12:25][Thread-1][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 10:12:27][Thread-5][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 10:12:28][Thread-10][route.py:24] INFO: request: /morningnews/stocknews {'start': '16', 'limit': '8'}
+[15-04-03 10:12:28][Thread-10][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 16,8
+[15-04-03 10:12:29][Thread-11][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:12:29][Thread-11][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:12:29][Thread-3][route.py:24] INFO: request: /morningnews/metalmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:12:29][Thread-3][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'METAL'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:12:29][Thread-12][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:12:29][Thread-12][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:12:53][Thread-6][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:12:53][Thread-6][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:12:55][Thread-2][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:12:55][Thread-13][route.py:24] INFO: request: /morningnews/metalmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:12:55][Thread-2][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:12:55][Thread-13][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'METAL'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:12:55][Thread-7][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 10:12:55][Thread-7][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 10:12:55][Thread-7][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 10:12:57][Thread-14][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 10:12:57][Thread-14][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:12:57][Thread-14][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 10:13:07][Thread-15][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:13:07][Thread-15][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:13:20][Thread-4][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 10:13:20][Thread-8][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 10:13:20][Thread-4][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:13:20][Thread-8][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:13:21][Thread-16][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:13:21][Thread-16][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:13:24][Thread-9][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:13:24][Thread-9][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:13:40][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:13:40][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:13:44][Thread-5][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '8', 'limit': '8'}
+[15-04-03 10:13:44][Thread-5][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 8,8 
+[15-04-03 10:13:47][Thread-10][route.py:24] INFO: request: /comments/todayforex {'start': '0', 'limit': '8'}
+[15-04-03 10:13:47][Thread-11][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 10:13:47][Thread-10][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:13:47][Thread-11][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:13:58][Thread-3][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:13:58][Thread-3][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:14:00][Thread-12][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '8', 'limit': '8'}
+[15-04-03 10:14:00][Thread-12][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 8,8 
+[15-04-03 10:14:13][Thread-6][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:14:13][Thread-6][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:14:34][Thread-2][route.py:24] INFO: request: /comments/todayforex {'start': '0', 'limit': '8'}
+[15-04-03 10:14:34][Thread-13][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 10:14:34][Thread-2][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:14:34][Thread-13][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:15:01][Thread-7][route.py:24] INFO: request: /comments/todayforex {'start': '0', 'limit': '8'}
+[15-04-03 10:15:01][Thread-7][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:15:01][Thread-14][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 10:15:01][Thread-14][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:15:30][Thread-15][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:15:30][Thread-15][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:15:35][Thread-4][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 10:15:35][Thread-4][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:15:35][Thread-8][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 10:15:35][Thread-8][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:15:51][Thread-16][route.py:24] INFO: request: /morningnews/metalmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:15:51][Thread-16][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'METAL'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:16:00][Thread-9][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:16:00][Thread-9][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:16:00][Thread-1][route.py:24] INFO: request: /morningnews/metalmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:16:00][Thread-1][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'METAL'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:16:23][Thread-5][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:16:23][Thread-5][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:16:30][Thread-10][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 10:16:30][Thread-10][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 10:16:32][Thread-11][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 10:16:32][Thread-11][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 10:16:50][Thread-3][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:16:50][Thread-3][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:16:52][Thread-12][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:16:52][Thread-12][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:16:54][Thread-6][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:16:54][Thread-6][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:16:56][Thread-2][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 10:16:58][Thread-13][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 10:16:59][Thread-7][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 10:16:59][Thread-7][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 10:17:02][Thread-14][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 10:17:02][Thread-14][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 10:17:05][Thread-15][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 10:17:05][Thread-15][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 10:17:07][Thread-4][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:17:07][Thread-4][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:17:13][Thread-8][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 10:17:13][Thread-8][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:17:16][Thread-16][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:17:16][Thread-16][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:17:16][Thread-9][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 10:17:16][Thread-9][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:17:18][Thread-1][route.py:24] INFO: request: /comments/todayforex {'start': '0', 'limit': '8'}
+[15-04-03 10:17:18][Thread-1][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:17:19][Thread-5][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 10:17:19][Thread-5][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:17:24][Thread-10][route.py:24] INFO: request: /comments/todaymetal {'start': '8', 'limit': '8'}
+[15-04-03 10:17:24][Thread-10][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 8,8
+[15-04-03 10:18:27][Thread-3][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:18:27][Thread-11][route.py:24] INFO: request: /morningnews/metalmorningnews {'start': '0', 'limit': '8'}
+[15-04-03 10:18:27][Thread-11][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'METAL'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:18:27][Thread-3][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 0,8 
+[15-04-03 10:18:37][Thread-12][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '8', 'limit': '8'}
+[15-04-03 10:18:37][Thread-12][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 8,8 
+[15-04-03 10:18:38][Thread-6][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '16', 'limit': '8'}
+[15-04-03 10:18:38][Thread-6][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 16,8 
+[15-04-03 10:18:40][Thread-2][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '24', 'limit': '8'}
+[15-04-03 10:18:40][Thread-2][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 24,8 
+[15-04-03 10:18:43][Thread-13][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '32', 'limit': '8'}
+[15-04-03 10:18:43][Thread-13][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 32,8 
+[15-04-03 10:18:44][Thread-7][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '40', 'limit': '8'}
+[15-04-03 10:18:44][Thread-7][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 40,8 
+[15-04-03 10:18:46][Thread-14][route.py:24] INFO: request: /morningnews/forexmorningnews {'start': '32', 'limit': '8'}
+[15-04-03 10:18:46][Thread-14][morningnews.py:115] INFO: 查询国内外外汇及时新闻--通用查询方法...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl, SUBSTRING(NEWS.PUBDATE, 1, 16) AS pubDate,  NEWS.LINKURL AS linkUrl,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_OTHERNEWS_RESOURCE_TABLE NEWS  WHERE 1 = 1 AND NEWS.NEWSFLAG = 'FOREX'  ORDER BY NEWS.PUBDATE DESC LIMIT 32,8 
+[15-04-03 10:18:53][Thread-15][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 10:18:53][Thread-15][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 10:18:56][Thread-4][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 10:18:56][Thread-4][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 10:19:05][Thread-8][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 10:19:05][Thread-8][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 10:19:10][Thread-16][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 10:19:10][Thread-16][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 10:19:14][Thread-9][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 10:19:14][Thread-9][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 10:19:15][Thread-1][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 10:19:15][Thread-5][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 10:19:15][Thread-5][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:19:15][Thread-1][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 10:19:18][Thread-10][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 10:19:18][Thread-10][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 10:19:25][Thread-11][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 10:19:29][Thread-3][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:19:29][Thread-3][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:19:29][Thread-12][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:19:29][Thread-12][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:19:31][Thread-6][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:19:31][Thread-6][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:19:43][Thread-2][route.py:24] INFO: request: /comments/todayforex {'start': '8', 'limit': '8'}
+[15-04-03 10:19:43][Thread-2][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 8,8
+[15-04-03 10:20:03][Thread-13][route.py:24] INFO: request: /comments/todaymetal {'start': '16', 'limit': '8'}
+[15-04-03 10:20:03][Thread-13][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 16,8
+[15-04-03 10:20:08][Thread-7][route.py:24] INFO: request: /comments/todaymetal {'start': '8', 'limit': '8'}
+[15-04-03 10:20:08][Thread-7][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 8,8
+[15-04-03 10:20:16][Thread-14][route.py:24] INFO: request: /comments/todayforex {'start': '0', 'limit': '8'}
+[15-04-03 10:20:16][Thread-14][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:20:16][Thread-15][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 10:20:16][Thread-15][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:20:17][Thread-4][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:20:17][Thread-4][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:21:38][Thread-8][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:21:38][Thread-8][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 10:22:25][Thread-16][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:22:25][Thread-16][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:22:31][Thread-9][route.py:24] INFO: request: /comments/todayforex {'start': '0', 'limit': '8'}
+[15-04-03 10:22:31][Thread-9][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:22:31][Thread-1][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 10:22:31][Thread-1][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:23:16][Thread-5][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 10:23:16][Thread-10][route.py:24] INFO: request: /comments/todayforex {'start': '0', 'limit': '8'}
+[15-04-03 10:23:16][Thread-10][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:23:16][Thread-5][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:23:43][Thread-11][route.py:24] INFO: request: /comments/todaymetal {'start': '8', 'limit': '8'}
+[15-04-03 10:23:43][Thread-11][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 8,8
+[15-04-03 10:24:01][Thread-3][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 10:24:01][Thread-3][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:24:03][Thread-12][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 10:24:03][Thread-12][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:24:41][Thread-6][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:24:41][Thread-6][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:25:21][Thread-2][route.py:24] INFO: request: /comments/todayforex {'start': '0', 'limit': '8'}
+[15-04-03 10:25:21][Thread-2][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:25:21][Thread-13][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 10:25:21][Thread-13][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:25:30][Thread-7][route.py:24] INFO: request: /comments/todayforex {'start': '8', 'limit': '8'}
+[15-04-03 10:25:30][Thread-7][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 8,8
+[15-04-03 10:26:52][Thread-14][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:26:52][Thread-14][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:27:04][Thread-15][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:27:04][Thread-15][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:27:11][Thread-4][route.py:24] INFO: request: /datacenter/forexgold {'start': '0', 'limit': '20'}
+[15-04-03 10:27:11][Thread-4][datacenter.py:150] INFO: 国家黄金外汇储备查询...！
+[15-04-03 10:27:12][Thread-8][route.py:24] INFO: request: /datacenter/socialpower {'start': '0', 'limit': '20'}
+[15-04-03 10:27:12][Thread-8][datacenter.py:353] INFO: 社会用电量查询..!
+[15-04-03 10:27:14][Thread-16][route.py:24] INFO: request: /datacenter/pmi {'start': '0', 'limit': '20'}
+[15-04-03 10:27:26][Thread-9][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 10:27:26][Thread-9][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 10:27:27][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 10:27:27][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 10:27:29][Thread-10][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 10:27:29][Thread-10][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 10:27:33][Thread-5][route.py:24] INFO: request: /comments/todayforex {'start': '0', 'limit': '8'}
+[15-04-03 10:27:33][Thread-5][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:27:33][Thread-11][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 10:27:33][Thread-11][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 10:27:41][Thread-3][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 10:27:41][Thread-3][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 10:27:46][Thread-12][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 10:27:46][Thread-12][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 10:27:47][Thread-6][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 10:27:47][Thread-6][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 12:20:52][Thread-2][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 12:20:52][Thread-2][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 12:21:08][Thread-13][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 12:21:08][Thread-13][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 13:38:13][Thread-7][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 13:38:13][Thread-7][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 13:38:16][Thread-14][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 13:38:16][Thread-15][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 13:38:16][Thread-15][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 13:38:16][Thread-14][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 13:39:58][Thread-4][route.py:24] INFO: request: /morningnews/chinanews {'start': '8', 'limit': '8'}
+[15-04-03 13:39:58][Thread-4][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 13:40:03][Thread-8][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 13:40:03][Thread-8][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 13:40:06][Thread-16][route.py:24] INFO: request: /morningnews/stocknews {'start': '8', 'limit': '8'}
+[15-04-03 13:40:06][Thread-16][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 13:40:08][Thread-9][route.py:24] INFO: request: /morningnews/stocknews {'start': '16', 'limit': '8'}
+[15-04-03 13:40:08][Thread-9][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 16,8
+[15-04-03 13:40:24][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 13:40:24][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 13:40:26][Thread-10][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 13:40:26][Thread-10][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 13:40:36][Thread-5][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 13:40:36][Thread-5][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 13:40:36][Thread-5][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 13:40:38][Thread-11][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 13:40:38][Thread-11][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 13:40:45][Thread-3][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 13:40:45][Thread-3][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 13:40:46][Thread-12][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 13:40:46][Thread-12][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 13:40:46][Thread-12][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 13:40:53][Thread-6][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 13:40:53][Thread-6][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 13:40:53][Thread-6][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 13:42:51][Thread-2][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 13:42:51][Thread-2][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 13:42:51][Thread-2][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 13:42:54][Thread-13][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 13:42:54][Thread-13][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 13:42:54][Thread-13][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 13:43:11][Thread-7][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '8', 'limit': '8'}
+[15-04-03 13:43:11][Thread-7][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 8,8
+[15-04-03 13:43:11][Thread-7][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 13:43:13][Thread-15][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 13:43:13][Thread-15][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 13:43:13][Thread-15][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 13:43:40][Thread-14][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 13:43:40][Thread-14][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 13:43:40][Thread-14][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 13:43:53][Thread-4][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 13:43:53][Thread-4][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 13:44:51][Thread-8][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 13:44:51][Thread-8][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 13:54:33][Thread-16][route.py:24] INFO: request: /comments/todayforex {'start': '0', 'limit': '8'}
+[15-04-03 13:54:33][Thread-16][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 0,8
+[15-04-03 13:54:33][Thread-9][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 13:54:33][Thread-9][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 13:54:50][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 13:54:50][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 13:55:14][Thread-10][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 13:55:14][Thread-10][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 13:55:21][MainThread][route.py:165] WARNING: not found!uri=datacenter/plateconcept,method=2,parameters=|{'start': ['0'], 'limit': ['10']}|
+[15-04-03 13:55:23][MainThread][route.py:165] WARNING: not found!uri=datacenter/plateconcept,method=2,parameters=|{'start': ['0'], 'limit': ['10']}|
+[15-04-03 13:55:24][Thread-5][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 13:55:24][Thread-5][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 16:59:59][Thread-11][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 16:59:59][Thread-11][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:00:06][Thread-3][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:00:06][Thread-3][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:00:13][Thread-12][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:00:13][Thread-12][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:00:14][Thread-6][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:00:14][Thread-6][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:00:18][Thread-2][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 17:00:18][Thread-2][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 17:00:18][Thread-2][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 17:00:20][Thread-13][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:00:20][Thread-13][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:00:20][Thread-13][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:00:24][Thread-7][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '8', 'limit': '8'}
+[15-04-03 17:00:24][Thread-7][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 8,8
+[15-04-03 17:00:24][Thread-7][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:00:27][Thread-15][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:00:27][Thread-15][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:00:27][Thread-15][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:00:29][Thread-14][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:00:29][Thread-14][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:00:29][Thread-14][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:00:35][Thread-4][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:00:35][Thread-4][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:00:38][Thread-8][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 17:00:38][Thread-8][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 17:00:40][Thread-16][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 17:00:40][Thread-16][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 17:00:42][Thread-9][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 17:00:42][Thread-9][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 17:00:50][Thread-1][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 17:00:50][Thread-1][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 17:00:55][Thread-10][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 17:00:57][Thread-5][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 17:00:57][Thread-5][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 17:01:01][Thread-11][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:01:01][Thread-11][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:10:14][Thread-3][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 17:10:14][Thread-3][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 17:10:14][Thread-3][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 17:10:18][Thread-12][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:10:18][Thread-12][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:10:18][Thread-12][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:10:20][Thread-6][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:10:20][Thread-6][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:10:20][Thread-6][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:10:25][Thread-2][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:10:25][Thread-2][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:10:25][Thread-2][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:10:27][Thread-13][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '8', 'limit': '8'}
+[15-04-03 17:10:27][Thread-13][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 8,8
+[15-04-03 17:10:27][Thread-13][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:10:28][Thread-7][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:10:28][Thread-7][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:10:28][Thread-7][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:10:32][Thread-15][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:10:32][Thread-15][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:10:54][Thread-14][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:10:54][Thread-14][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:10:55][Thread-4][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:10:55][Thread-4][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:10:56][Thread-8][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:10:56][Thread-8][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:10:57][Thread-16][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:10:57][Thread-16][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:10:58][Thread-9][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:10:58][Thread-9][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:11:04][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:11:04][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:11:12][Thread-10][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:11:12][Thread-10][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:11:15][Thread-5][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:11:15][Thread-5][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:11:16][Thread-11][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:11:16][Thread-11][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:11:17][Thread-3][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:11:17][Thread-3][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:11:23][Thread-12][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:11:23][Thread-12][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:11:24][Thread-6][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:11:24][Thread-6][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:12:27][Thread-2][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:12:27][Thread-2][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:12:29][Thread-13][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:12:29][Thread-13][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:12:32][Thread-7][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:12:32][Thread-7][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:12:36][Thread-15][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:12:36][Thread-15][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:12:40][Thread-14][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:12:40][Thread-14][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:12:43][Thread-4][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:12:43][Thread-4][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:12:48][Thread-8][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 17:12:48][Thread-8][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 17:12:48][Thread-8][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 17:12:50][Thread-16][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:12:50][Thread-16][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:12:50][Thread-16][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:12:54][Thread-9][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:12:54][Thread-9][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:12:56][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:12:56][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:12:59][Thread-10][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 17:12:59][Thread-10][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 17:12:59][Thread-10][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 17:13:01][Thread-5][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:13:01][Thread-5][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:13:01][Thread-5][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:13:03][Thread-11][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:13:03][Thread-11][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:13:05][Thread-3][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 17:13:05][Thread-3][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 17:13:05][Thread-3][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 17:13:06][Thread-12][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:13:06][Thread-12][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:13:12][Thread-6][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 17:13:12][Thread-6][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 17:13:12][Thread-6][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 17:13:16][Thread-2][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:13:16][Thread-2][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:13:40][Thread-13][route.py:24] INFO: request: /comments/todayforex {'start': '0', 'limit': '8'}
+[15-04-03 17:13:40][Thread-13][comments.py:118] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSNEWS.KEYID AS keyId, COMMENTSNEWS.LINKURL AS linkUrl,  COMMENTSNEWS.TITLE AS title, SUBSTRING(COMMENTSNEWS.PUBDATE,1,16) AS pubDate,  COMMENTSNEWS.DESCRIPTCONTEXT AS descriptContext, COMMENTSNEWS.SOURCEFLAG AS sourceFlag  FROM COMMENTS_NEWS_RESOURCE_TABLE COMMENTSNEWS  WHERE 1 = 1 AND COMMENTSNEWS.COMMENTFLAG = 'FOREX' AND COMMENTSNEWS.TITLE !='' ORDER BY COMMENTSNEWS.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:13:41][Thread-7][route.py:24] INFO: request: /comments/todaymetal {'start': '0', 'limit': '8'}
+[15-04-03 17:13:41][Thread-7][comments.py:162] INFO: 查询当天外汇评论详情通用查询接口...！SQL: SELECT COMMENTSMETAL.KEYID AS keyId, COMMENTSMETAL.LINKURL AS linkUrl, COMMENTSMETAL.TITLE AS title , SUBSTRING(COMMENTSMETAL.PUBDATE, 1, 16) AS pubDate, COMMENTSMETAL.DESCRIPTCONTEXT AS descriptContext, COMMENTSMETAL.SOURCEFLAG AS sourceFlag  FROM COMMENTS_METAL_RESOURCE_TABLE COMMENTSMETAL WHERE 1 = 1 AND COMMENTSMETAL.COMMENTFLAG = 'METAL' AND COMMENTSMETAL.DESCRIPTCONTEXT !='' ORDER BY COMMENTSMETAL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:26:17][Thread-15][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:26:17][Thread-15][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:26:35][Thread-14][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 17:26:35][Thread-14][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 17:26:35][Thread-4][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 17:26:35][Thread-4][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 17:26:52][Thread-8][route.py:24] INFO: request: /morningnews/chinanews {'start': '8', 'limit': '8'}
+[15-04-03 17:26:52][Thread-8][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 17:26:55][Thread-16][route.py:24] INFO: request: /morningnews/chinanews {'start': '16', 'limit': '8'}
+[15-04-03 17:26:55][Thread-16][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 16,8
+[15-04-03 17:26:57][Thread-9][route.py:24] INFO: request: /morningnews/chinanews {'start': '8', 'limit': '8'}
+[15-04-03 17:26:57][Thread-9][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 17:26:58][Thread-1][route.py:24] INFO: request: /morningnews/stocknews {'start': '8', 'limit': '8'}
+[15-04-03 17:26:58][Thread-1][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 17:27:58][Thread-10][route.py:24] INFO: request: /morningnews/stocknews {'start': '16', 'limit': '8'}
+[15-04-03 17:27:58][Thread-10][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 16,8
+[15-04-03 17:28:00][Thread-5][route.py:24] INFO: request: /morningnews/stocknews {'start': '24', 'limit': '8'}
+[15-04-03 17:28:00][Thread-5][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 24,8
+[15-04-03 17:28:02][Thread-11][route.py:24] INFO: request: /morningnews/stocknews {'start': '16', 'limit': '8'}
+[15-04-03 17:28:02][Thread-11][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 16,8
+[15-04-03 17:29:04][Thread-3][route.py:24] INFO: request: /morningnews/chinanews {'start': '16', 'limit': '8'}
+[15-04-03 17:29:04][Thread-3][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 16,8
+[15-04-03 17:29:05][Thread-12][route.py:24] INFO: request: /morningnews/chinanews {'start': '8', 'limit': '8'}
+[15-04-03 17:29:05][Thread-12][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 17:29:06][Thread-6][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 17:29:06][Thread-6][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 17:29:08][Thread-2][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 17:29:08][Thread-2][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 17:29:10][Thread-13][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 17:29:10][Thread-13][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 17:29:11][Thread-7][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 17:29:11][Thread-7][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 17:29:11][Thread-15][route.py:24] INFO: request: /morningnews/chinanews {'start': '8', 'limit': '8'}
+[15-04-03 17:29:11][Thread-15][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-03 17:29:13][Thread-14][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 17:29:13][Thread-14][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 17:29:18][Thread-4][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:29:18][Thread-4][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:29:20][Thread-8][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:29:20][Thread-8][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:29:21][Thread-16][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:29:21][Thread-16][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:29:22][Thread-9][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:29:22][Thread-9][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:29:37][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:29:37][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:29:41][Thread-10][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:29:41][Thread-10][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:29:45][Thread-5][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:29:45][Thread-5][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:29:47][Thread-11][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 17:29:47][Thread-11][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 17:29:47][Thread-11][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 17:29:49][Thread-3][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:29:49][Thread-3][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:29:49][Thread-3][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:30:02][Thread-12][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:30:02][Thread-12][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:30:02][Thread-12][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:30:05][Thread-6][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:30:05][Thread-6][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:30:05][Thread-6][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:30:14][Thread-2][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:30:14][Thread-2][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:30:16][Thread-13][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:30:16][Thread-13][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:30:17][Thread-7][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:30:17][Thread-7][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:30:18][Thread-15][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:30:18][Thread-15][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:30:24][Thread-14][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:30:24][Thread-14][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:30:26][Thread-4][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 17:30:26][Thread-4][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:30:26][Thread-8][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:30:26][Thread-8][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:30:32][Thread-16][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 17:30:32][Thread-16][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 17:30:32][Thread-16][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 17:30:33][Thread-9][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:30:33][Thread-9][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:30:33][Thread-9][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:30:35][Thread-1][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '8', 'limit': '8'}
+[15-04-03 17:30:35][Thread-1][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 8,8
+[15-04-03 17:30:35][Thread-1][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:30:37][Thread-10][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 17:30:37][Thread-10][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 17:30:37][Thread-10][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 17:30:48][Thread-5][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:30:48][Thread-5][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:30:52][Thread-11][route.py:24] INFO: request: /comments/dailystock {'start': '0', 'limit': '8'}
+[15-04-03 17:30:52][Thread-11][comments.py:35] INFO: 查询当天股票评论详情通用查询接口...！SQL:SELECT  COMMENTSSTOCK.KEYID AS keyId , COMMENTSSTOCK.TITLE AS title ,  COMMENTSSTOCK.DESCRIPTCONTEXT AS descriptContext ,  COMMENTSSTOCK.LINKURL AS linkUrl,  SUBSTRING(COMMENTSSTOCK.PUBDATE,1,16) AS pubDate  FROM  COMMENTS_STOCK_RESOURCE_TABLE  COMMENTSSTOCK  WHERE 1=1  AND   COMMENTSSTOCK.DESCRIPTCONTEXT !=''  ORDER BY  COMMENTSSTOCK.PUBDATE DESC  LIMIT 0,8
+[15-04-03 17:30:53][Thread-3][route.py:24] INFO: request: /comments/dailyfinance {'start': '0', 'limit': '8'}
+[15-04-03 17:30:53][Thread-3][comments.py:75] INFO: 查询当天财经评论详情通用查询接口...！SQL: SELECT  COMMENTSFINANCE.KEYID AS keyId ,  COMMENTSFINANCE.TITLE AS title ,  COMMENTSFINANCE.DESCRIPTCONTEXT AS descriptContext , COMMENTSFINANCE.LINKURL AS linkUrl,  SUBSTRING(COMMENTSFINANCE.PUBDATE,1,16) AS pubDate  FROM  COMMENTS_FINANCE_RESOURCE_TABLE  COMMENTSFINANCE WHERE 1=1  AND COMMENTSFINANCE.DESCRIPTCONTEXT !=''  AND   COMMENTSFINANCE.COMMENTFLAG = 'FINANCE'  ORDER BY  COMMENTSFINANCE.PUBDATE DESC  LIMIT 0,8
+[15-04-03 17:31:09][Thread-12][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:31:09][Thread-12][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:31:12][Thread-6][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 17:31:12][Thread-6][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 17:31:14][Thread-2][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 17:31:16][Thread-13][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 17:31:16][Thread-13][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 17:34:15][Thread-7][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 17:34:15][Thread-7][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 17:34:18][Thread-15][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 17:34:18][Thread-15][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 17:34:19][Thread-14][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 17:34:23][Thread-4][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 17:34:23][Thread-4][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 17:35:14][Thread-8][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 17:35:15][Thread-16][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 17:35:15][Thread-16][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 17:35:17][Thread-9][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 17:35:17][Thread-9][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 17:35:19][Thread-1][route.py:24] INFO: request: /datacenter/stockaccount {'start': '0', 'limit': '20'}
+[15-04-03 17:35:19][Thread-1][datacenter.py:230] INFO: 股票账户信息指标信息查询...！
+[15-04-03 17:35:21][Thread-10][route.py:24] INFO: request: /datacenter/shibor {'start': '0', 'limit': '20'}
+[15-04-03 17:35:21][Thread-10][datacenter.py:296] INFO: 上海银行同业拆借利率查询...!
+[15-04-03 17:35:23][Thread-5][route.py:24] INFO: request: /datacenter/lrp {'start': '0', 'limit': '25'}
+[15-04-03 17:35:23][Thread-5][datacenter.py:324] INFO: 一年期贷款利率查询...!
+[15-04-03 17:35:24][Thread-11][route.py:24] INFO: request: /datacenter/dollarindex {'start': '0', 'limit': '25'}
+[15-04-03 17:35:26][Thread-3][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 17:35:26][Thread-3][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 18:17:17][Thread-12][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 18:17:17][Thread-12][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 18:17:23][Thread-6][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 18:17:23][Thread-6][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 18:17:25][Thread-2][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 18:17:25][Thread-2][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 18:17:26][Thread-13][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 18:17:26][Thread-13][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 18:17:27][Thread-7][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-03 18:17:27][Thread-7][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-03 18:17:28][Thread-15][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-03 18:17:28][Thread-15][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 18:17:28][Thread-14][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-03 18:17:28][Thread-14][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-03 18:17:30][Thread-4][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 18:17:30][Thread-4][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 18:17:32][Thread-8][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-03 18:17:32][Thread-8][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-03 18:17:32][Thread-8][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-03 18:17:33][Thread-16][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 18:17:34][Thread-16][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 18:17:34][Thread-16][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 18:17:36][Thread-9][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-03 18:17:36][Thread-9][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-03 18:17:36][Thread-9][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-03 18:17:39][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 18:17:39][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 18:17:42][Thread-10][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 18:17:42][Thread-10][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 18:17:52][Thread-5][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 18:17:52][Thread-5][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 18:17:53][Thread-11][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 18:17:53][Thread-11][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 18:17:56][Thread-3][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 18:17:56][Thread-3][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-03 18:17:59][Thread-12][route.py:24] INFO: request: /datacenter/tradeactivity {'start': '0', 'limit': '25'}
+[15-04-03 18:17:59][Thread-12][datacenter.py:28] INFO: 数据中心交易情绪查询查询...！
+[15-04-03 18:18:04][Thread-6][route.py:24] INFO: request: /datacenter/margintrade {'start': '0', 'limit': '60'}
+[15-04-03 18:18:04][Thread-6][datacenter.py:96] INFO: 融资融券余额查询...！
+[15-04-03 18:18:09][Thread-2][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-03 18:18:09][Thread-2][headline.py:34] INFO: 查询当日头条新闻信息...！

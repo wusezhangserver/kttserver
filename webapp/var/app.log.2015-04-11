@@ -1,0 +1,48 @@
+[15-04-11 08:12:30][Thread-9][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-11 08:12:30][Thread-9][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-11 08:38:01][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-11 08:38:01][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:05:43][Thread-10][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-11 13:05:43][Thread-10][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:06:06][Thread-5][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-11 13:06:06][Thread-5][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:06:13][Thread-11][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-11 13:06:13][Thread-11][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:06:15][Thread-12][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-11 13:06:15][Thread-12][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:06:17][MainThread][route.py:165] WARNING: not found!uri=datacenter/plateconcept,method=2,parameters=|{'start': ['0'], 'limit': ['10']}|
+[15-04-11 13:06:21][Thread-3][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-11 13:06:21][Thread-3][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:06:23][MainThread][route.py:165] WARNING: not found!uri=datacenter/plateconcept,method=2,parameters=|{'start': ['0'], 'limit': ['10']}|
+[15-04-11 13:06:25][Thread-13][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-11 13:06:25][Thread-13][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:06:26][Thread-6][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-11 13:06:26][Thread-6][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:06:27][MainThread][route.py:165] WARNING: not found!uri=datacenter/plateconcept,method=2,parameters=|{'start': ['0'], 'limit': ['10']}|
+[15-04-11 13:06:28][Thread-2][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-11 13:06:28][Thread-2][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:06:29][MainThread][route.py:165] WARNING: not found!uri=datacenter/plateconcept,method=2,parameters=|{'start': ['0'], 'limit': ['10']}|
+[15-04-11 13:06:31][Thread-7][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-11 13:06:31][Thread-7][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:06:40][Thread-15][route.py:24] INFO: request: /comments/dailystock {'start': '0', 'limit': '8'}
+[15-04-11 13:06:40][Thread-15][comments.py:35] INFO: 查询当天股票评论详情通用查询接口...！SQL:SELECT  COMMENTSSTOCK.KEYID AS keyId , COMMENTSSTOCK.TITLE AS title ,  COMMENTSSTOCK.DESCRIPTCONTEXT AS descriptContext ,  COMMENTSSTOCK.LINKURL AS linkUrl,  SUBSTRING(COMMENTSSTOCK.PUBDATE,1,16) AS pubDate  FROM  COMMENTS_STOCK_RESOURCE_TABLE  COMMENTSSTOCK  WHERE 1=1  AND   COMMENTSSTOCK.DESCRIPTCONTEXT !=''  ORDER BY  COMMENTSSTOCK.PUBDATE DESC  LIMIT 0,8
+[15-04-11 13:06:41][Thread-14][route.py:24] INFO: request: /comments/dailyfinance {'start': '0', 'limit': '8'}
+[15-04-11 13:06:41][Thread-14][comments.py:75] INFO: 查询当天财经评论详情通用查询接口...！SQL: SELECT  COMMENTSFINANCE.KEYID AS keyId ,  COMMENTSFINANCE.TITLE AS title ,  COMMENTSFINANCE.DESCRIPTCONTEXT AS descriptContext , COMMENTSFINANCE.LINKURL AS linkUrl,  SUBSTRING(COMMENTSFINANCE.PUBDATE,1,16) AS pubDate  FROM  COMMENTS_FINANCE_RESOURCE_TABLE  COMMENTSFINANCE WHERE 1=1  AND COMMENTSFINANCE.DESCRIPTCONTEXT !=''  AND   COMMENTSFINANCE.COMMENTFLAG = 'FINANCE'  ORDER BY  COMMENTSFINANCE.PUBDATE DESC  LIMIT 0,8
+[15-04-11 13:07:02][Thread-4][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-11 13:07:02][Thread-4][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:07:06][MainThread][route.py:165] WARNING: not found!uri=datacenter/plateconcept,method=2,parameters=|{'start': ['0'], 'limit': ['10']}|
+[15-04-11 13:07:07][Thread-8][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-11 13:07:07][Thread-8][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:07:08][Thread-16][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-11 13:07:08][Thread-16][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:07:09][Thread-9][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-11 13:07:09][Thread-9][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-11 13:07:10][MainThread][route.py:165] WARNING: not found!uri=datacenter/plateconcept,method=2,parameters=|{'start': ['0'], 'limit': ['10']}|
+[15-04-11 13:11:14][Thread-1][route.py:24] INFO: request: /comments/dailyfinance {'start': '0', 'limit': '8'}
+[15-04-11 13:11:14][Thread-10][route.py:24] INFO: request: /comments/dailystock {'start': '0', 'limit': '8'}
+[15-04-11 13:11:14][Thread-10][comments.py:35] INFO: 查询当天股票评论详情通用查询接口...！SQL:SELECT  COMMENTSSTOCK.KEYID AS keyId , COMMENTSSTOCK.TITLE AS title ,  COMMENTSSTOCK.DESCRIPTCONTEXT AS descriptContext ,  COMMENTSSTOCK.LINKURL AS linkUrl,  SUBSTRING(COMMENTSSTOCK.PUBDATE,1,16) AS pubDate  FROM  COMMENTS_STOCK_RESOURCE_TABLE  COMMENTSSTOCK  WHERE 1=1  AND   COMMENTSSTOCK.DESCRIPTCONTEXT !=''  ORDER BY  COMMENTSSTOCK.PUBDATE DESC  LIMIT 0,8
+[15-04-11 13:11:14][Thread-1][comments.py:75] INFO: 查询当天财经评论详情通用查询接口...！SQL: SELECT  COMMENTSFINANCE.KEYID AS keyId ,  COMMENTSFINANCE.TITLE AS title ,  COMMENTSFINANCE.DESCRIPTCONTEXT AS descriptContext , COMMENTSFINANCE.LINKURL AS linkUrl,  SUBSTRING(COMMENTSFINANCE.PUBDATE,1,16) AS pubDate  FROM  COMMENTS_FINANCE_RESOURCE_TABLE  COMMENTSFINANCE WHERE 1=1  AND COMMENTSFINANCE.DESCRIPTCONTEXT !=''  AND   COMMENTSFINANCE.COMMENTFLAG = 'FINANCE'  ORDER BY  COMMENTSFINANCE.PUBDATE DESC  LIMIT 0,8
+[15-04-11 13:11:21][Thread-11][route.py:24] INFO: request: /themecompany/dailythemesnews {'start': '0', 'limit': '13'}
+[15-04-11 13:11:21][Thread-5][route.py:24] INFO: request: /themecompany/dailycompanynews {'start': '0', 'limit': '13'}
+[15-04-11 13:11:21][Thread-11][themecompany.py:28] INFO: 查询当天股票板块信息接口...！SQL: SELECT THEMENEWS.KEYID ,THEMENEWS.LINKURL AS linkUrl, SUBSTRING(THEMENEWS.PUBDATE,1,16) AS pubDate, THEMENEWS.TITLE AS title  FROM STOCK_POOL_THEME_NEWS_TABLE THEMENEWS WHERE 1 = 1 LIMIT 0,13
+[15-04-11 13:11:21][Thread-5][themecompany.py:63] INFO: 查询当天股票板块信息接口...！SQL: SELECT MAX(COMPANYNEWS.KEYID) AS KEYID, MAX(COMPANYNEWS.LINKURL) AS linkUrl, MAX(SUBSTRING(COMPANYNEWS.PUBDATE, 1, 16)) AS pubDate, MAX(SUBSTRING(COMPANYNEWS.TITLE, 1, 35)) AS title FROM STOCK_POOL_COMPANY_NEWS_TABLE COMPANYNEWS WHERE 1 = 1 GROUP BY COMPANYNEWS.TITLE ORDER BY COMPANYNEWS.PUBDATE DESC LIMIT 0,13

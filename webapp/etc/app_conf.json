@@ -1,0 +1,17 @@
+{
+    "redis":{
+        "main":{
+            "host":"localhost",
+            "port":6379
+         }
+    },
+    "mysql":{
+        "master":{
+            "host":"216.189.56.159",
+            "user":"wusezhang",
+            "passwd":"zjj07174559065",
+            "db":"ktproject",
+            "charset":"utf8"
+        }
+    }
+}

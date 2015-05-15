@@ -1,0 +1,10 @@
+[15-04-18 05:06:43][MainThread][route.py:165] WARNING: not found!uri=,method=1,parameters=||
+[15-04-18 05:53:42][MainThread][route.py:165] WARNING: not found!uri=,method=1,parameters=||
+[15-04-18 15:18:52][Thread-3][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-18 15:18:52][Thread-3][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-18 15:19:05][Thread-6][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-18 15:19:05][Thread-6][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-18 15:19:05][Thread-2][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-18 15:19:05][Thread-2][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-18 15:19:52][Thread-7][route.py:24] INFO: request: /morningnews/chinanews {'start': '8', 'limit': '8'}
+[15-04-18 15:19:52][Thread-7][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8

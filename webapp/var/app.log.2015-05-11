@@ -1,0 +1,32 @@
+[15-05-11 05:27:30][Thread-14][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-05-11 05:27:30][Thread-14][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-05-11 05:27:43][Thread-4][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-05-11 05:27:43][Thread-4][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-05-11 05:27:43][Thread-4][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-05-11 05:27:45][Thread-8][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-05-11 05:27:45][Thread-8][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-05-11 05:27:45][Thread-8][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-05-11 05:33:01][Thread-16][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-05-11 05:33:01][Thread-16][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-05-11 05:33:25][Thread-9][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-05-11 05:33:25][Thread-9][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-05-11 06:06:46][Thread-1][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-05-11 06:06:46][Thread-1][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-05-11 06:06:48][Thread-10][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-05-11 06:06:48][Thread-10][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-05-11 06:06:48][Thread-10][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-05-11 06:06:49][Thread-11][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-05-11 06:06:49][Thread-11][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-05-11 06:06:49][Thread-11][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-05-11 06:07:00][Thread-12][route.py:24] INFO: request: /dailyblog/authorarticles {'start': '0', 'countPerPage': '8', 'limit': '8', 'id': '14', 'bzfl': '0'}
+[15-05-11 06:07:01][Thread-12][dailyblog.py:65] INFO: 查找当前作者所有文章的明细记录...！ SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16)  AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND CJXJ_DETAIL.ID = 14 AND  CJXJ.ID = CJXJ_DETAIL.ID ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-05-11 06:07:01][Thread-12][dailyblog.py:74] INFO: 查找当前作者所有文章的明细记录总条数...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL WHERE 1=1 AND CJXJ_DETAIL.ID = 14
+[15-05-11 06:07:06][Thread-5][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '15', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-05-11 06:07:06][Thread-5][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 15,15
+[15-05-11 06:07:06][Thread-5][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-05-11 06:07:08][Thread-13][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-05-11 06:07:08][Thread-13][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-05-11 06:07:08][Thread-13][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-05-11 06:07:11][Thread-3][route.py:24] INFO: request: /dailyblog/authorarticles {'start': '0', 'countPerPage': '8', 'limit': '8', 'id': '11', 'bzfl': '0'}
+[15-05-11 06:07:11][Thread-3][dailyblog.py:65] INFO: 查找当前作者所有文章的明细记录...！ SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16)  AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND CJXJ_DETAIL.ID = 11 AND  CJXJ.ID = CJXJ_DETAIL.ID ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-05-11 06:07:11][Thread-3][dailyblog.py:74] INFO: 查找当前作者所有文章的明细记录总条数...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL WHERE 1=1 AND CJXJ_DETAIL.ID = 11

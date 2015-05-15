@@ -1,0 +1,28 @@
+[15-04-29 06:30:22][Thread-7][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-29 06:30:22][Thread-7][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-29 06:30:45][Thread-14][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-29 06:30:45][Thread-14][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-29 06:30:45][Thread-14][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-29 06:30:47][Thread-4][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-29 06:30:47][Thread-4][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-29 06:30:47][Thread-4][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-29 07:00:02][Thread-8][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-29 07:00:02][Thread-8][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-29 07:00:13][Thread-16][route.py:24] INFO: request: /headline/hotmarket {'start': '0', 'limit': '8'}
+[15-04-29 07:00:13][Thread-16][headline.py:63] INFO: 查询当日头条新闻信息...！
+[15-04-29 07:00:20][Thread-9][route.py:24] INFO: request: /dailyblog/byresourcetype {'start': '0', 'countPerPage': '15', 'limit': '15', 'bzfl': '0', 'bzname': ''}
+[15-04-29 07:00:20][Thread-9][dailyblog.py:31] INFO: 查询财经作者列表信息...！ SELECT A.BZ_NAME AS bzname, A.BZ_INTRODUCE AS bzintroduce, A.BZ_FL AS bzfl, SUBSTRING(A.CREATEDATE,1,16)  AS createDate ,A.SRC_NAME AS srcname, A.ID AS id  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0  ORDER BY  POPULATION_FLAG  DESC  LIMIT 0,15
+[15-04-29 07:00:20][Thread-9][dailyblog.py:42] INFO: 查询财经作者列表信息...！ SELECT COUNT(ID) AS COUNTS  FROM DAILYBLOG_AUTHOR_RESOURCE_TABLE A WHERE 1 = 1 AND A.BZ_FL=0 
+[15-04-29 07:00:21][Thread-1][route.py:24] INFO: request: /dailyblog/dailyarticles {'start': '0', 'limit': '8'}
+[15-04-29 07:00:21][Thread-1][dailyblog.py:100] INFO: 国内股票经济评论家当天的所有文章明细记录...！SELECT CJXJ_DETAIL.TITLE AS title , CJXJ.SRC_NAME AS imageUrl , SUBSTRING(CJXJ_DETAIL.PUBDATE,1,16) AS pubDate , CJXJ_DETAIL.LINKURL AS linkUrl, CJXJ.ID AS id FROM DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL , DAILYBLOG_AUTHOR_RESOURCE_TABLE CJXJ WHERE 1=1 AND  CJXJ.ID = CJXJ_DETAIL.ID AND  CJXJ.BZ_FL = 0 AND  DATE(CJXJ_DETAIL.PUBDATE) = CURDATE() ORDER BY CJXJ_DETAIL.PUBDATE DESC LIMIT 0,8
+[15-04-29 07:00:21][Thread-1][dailyblog.py:108] INFO: 查找当前作者所有文章的明细记录总条数...！  SELECT  COUNT(ID) AS COUNTS FROM  DAILYBLOG_RESOURCE_DETAIL_TABLE CJXJ_DETAIL  WHERE DATE(CJXJ_DETAIL.PUBDATE) = CURDATE()
+[15-04-29 07:00:25][Thread-10][route.py:24] INFO: request: /headline/morningnews {'start': '0', 'limit': '6'}
+[15-04-29 07:00:25][Thread-10][headline.py:34] INFO: 查询当日头条新闻信息...！
+[15-04-29 07:00:26][Thread-11][route.py:24] INFO: request: /morningnews/chinanews {'start': '0', 'limit': '8'}
+[15-04-29 07:00:26][Thread-11][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'CHINA'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-29 07:00:26][Thread-12][route.py:24] INFO: request: /morningnews/stocknews {'start': '0', 'limit': '8'}
+[15-04-29 07:00:26][Thread-12][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 0,8
+[15-04-29 07:03:11][Thread-5][route.py:24] INFO: request: /morningnews/stocknews {'start': '8', 'limit': '8'}
+[15-04-29 07:03:11][Thread-5][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 8,8
+[15-04-29 07:03:20][Thread-13][route.py:24] INFO: request: /morningnews/stocknews {'start': '16', 'limit': '8'}
+[15-04-29 07:03:20][Thread-13][morningnews.py:54] INFO: 查询财经新闻详情通用查询接口...！SQL: SELECT NEWS.TITLE AS title, NEWS.IMAGEURL AS imageUrl,  SUBSTRING(NEWS.PUBDATE,1,16) AS pubDate,  NEWS.LINKURL AS linkUrl ,  NEWS.DESCRIPTCONTEXT AS descriptContext  FROM  MORNING_FINANCENEWS_RESOURCE_TABLE  NEWS   WHERE  1=1  AND  NEWS.NEWSFLAG = 'STOCK'  ORDER BY  NEWS.PUBDATE DESC   LIMIT 16,8

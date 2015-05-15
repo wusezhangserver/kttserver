@@ -1,0 +1,9 @@
+{
+    "$includes": [
+        "app_conf.json"
+    ],
+    "logging": {
+        "config_file": "/home/www/kttserver/webapp/etc/dev_log.conf",
+        "default_logger": "simple"
+    }
+}

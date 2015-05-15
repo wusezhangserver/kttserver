@@ -1,0 +1,17 @@
+no configuration found!,will use [/home/www/kttserver/webapp/etc/includes_dev.json] instead
+[15-04-02 14:33:28][MainThread][serv.py:142] INFO: starting..., listen [8888], configurated by (/home/www/kttserver/webapp/etc/includes_dev.json)
+Traceback (most recent call last):
+  File "serv.py", line 145, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "/usr/local/lib/python2.7/site-packages/tornado-4.0.2-py2.7-linux-i686.egg/tornado/ioloop.py", line 812, in start
+    event_pairs = self._impl.poll(poll_timeout)
+KeyboardInterrupt
+python: can't open file 'serv': [Errno 2] No such file or directory
+no configuration found!,will use [/home/www/kttserver/webapp/etc/includes_dev.json] instead
+[15-04-03 07:12:26][MainThread][serv.py:142] INFO: starting..., listen [8888], configurated by (/home/www/kttserver/webapp/etc/includes_dev.json)
+Traceback (most recent call last):
+  File "serv.py", line 145, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "/usr/local/lib/python2.7/site-packages/tornado-4.0.2-py2.7-linux-i686.egg/tornado/ioloop.py", line 812, in start
+    event_pairs = self._impl.poll(poll_timeout)
+KeyboardInterrupt

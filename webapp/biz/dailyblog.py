@@ -141,7 +141,7 @@ class  DailyBlogResourceAction(object):
         session = Session('master')
         SQL = " SELECT COUNT(ID) AS COUNTS  FROM" \
               " DAILYBLOG_FOREXRESOURCE_DETAIL_TABLE HSHY_RESOURCE WHERE 1=1" \
-              " AND HSHY_RESOURCE.ID IN (%s)"%(id)
+              " AND HSHY_RESOURCE.ID IN ('"+id+"')"
         logger.info('通过ID查找当前外汇作者所有文章的明细总条数...！'+SQL)
         resources = session.select_resultone(SQL)
         return resources
